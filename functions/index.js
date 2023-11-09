@@ -11,8 +11,8 @@ initializeApp();
 const axios = require("axios");
 const jsonata = require("jsonata");
 
-const HOME_PAGE = defineString("HOME_PAGE");
-const REALPAGE_API = defineString("REALPAGE_API");
+const HOME_PAGE = defineString("HOME_PAGE").value();
+const REALPAGE_API = defineString("REALPAGE_API").value();
 const FLOORPLAN_API = `${REALPAGE_API}/floorplans`;
 const UNIT_API = `${REALPAGE_API}/units?available=false&honordisplayorder=true&siteid=8448226&bestprice=true&leaseterm=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18`;
 const API_KEY_REGEX = /apiKey:\s*'(?<API_KEY>[^']*)'/;

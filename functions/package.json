@@ -16,7 +16,6 @@
   "dependencies": {
     "axios": "^1.4.0",
     "firebase-admin": "^11.8.0",
-    "firebase-functions": "^4.3.1",
     "jsonata": "^2.0.3",
     "node-jq": "^2.3.5"
   },
